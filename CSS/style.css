@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #000;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*Header stuff*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+header nav a img{
+    margin: auto;
+    width: 100px;
+}
+
+
+.space-navigation {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.menu-target{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #e6bd43;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+}
+
+.navigation-contact {
+    background-color:#e6bd43;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+main {
+    flex: 1 0 auto;
+    min-height: 1000px;
+
+}
+
+
+
+/*Footer stuff*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #252525;
+    
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 2rem;
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.space-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;   
+}
+
+.space-socials li a {
+    color: #fff;
+    font-size: 20pt;
+}
+
+.go-to-top a{
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 1rem;
+    background-color: #252525;
+    color: #fff;
+    font-size: 15pt;
+    border-radius: 5px;
+    outline: 1px solid white;
+}
+
+
+
+@media (min-width: 5px) {
+
+
+    header nav {
+        flex-direction: row;
+    }
+
+    header nav a img{
+        margin-left: 2rem;
+    }
+
+    .space-navigation{
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+    
+    footer nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer nav img {
+        margin-left: 2rem;
+        width: 100px;
+    }
+
+    footer nav ul {
+        margin-right: 2rem;
+    }
+    
+    
+
+}
