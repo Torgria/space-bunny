@@ -14,26 +14,26 @@
         <meta property="og:image" content="img/logo1.png">
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="index.html"><img src="img/logo1.png" alt="Logo"></a>
+        <header id="top">
+            <nav aria-roledescription="main navigation">
+                <a href="index.html"><img src="img/logo1.png" alt="Logo" title="Homepage" aria-label="Go to homepage"></a>
                 <ul class="space-navigation">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Portofolio</a></li>
-                    <li class="menu-target"><a href="about.html">About</a></li>
-                    <li class="navigation-contact"><a href="about.html#contact">Contact</a></li>
+                    <li><a href="index.html" title="Homepage" aria-label="Go to homepage">Home</a></li>
+                    <li><a href="products.html" title="Portfolio" aria-label="Go to portfolio page">Portofolio</a></li>
+                    <li class="menu-target"><a href="about.html" title="About" aria-label="Go to About us page">About</a></li>
+                    <li class="navigation-contact"><a href="about.html#contact" title="Contact us" aria-label="Go to about us page">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-          <section class="space-about-header">
+          <article class="space-about-header">
             <section>
                 <p>Company name</p>
                 <h3>About Our Company</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, massa id egestas faucibus, magna felis varius est, vel egestas nisl risus nec turpis. Morbi laoreet porttitor mauris, et scelerisque sem euismod id. Morbi eu diam ac massa vulputate consectetur quis sed massa. Suspendisse potenti. Donec lobortis lacinia vehicula. Donec vel scelerisque enim. Praesent condimentum dignissim nulla, sed sollicitudin felis commodo vitae. Morbi eu diam ac massa vulputate consectetur quis sed massa. Suspendisse potenti. Donec lobortis lacinia vehicula. Donec vel scelerisque enim. Praesent condimentum dignissim nulla, sed sollicitudin felis commodo vitae.</p>
-                <a class="button" href="#contact">Get in touch with us</a>   
+                <a class="button" href="#contact" title="Contact us" aria-label="Go to contact info">Get in touch with us</a>   
             </section>
-          </section>
+        </article>
           <section class="space-about-services">
             <h2>Our services</h2>
             <ul>
@@ -84,7 +84,7 @@
                     <input type="text" id="Subject" placeholder="Branding...">
                     <label for="message">Message</label>
                     <textarea name="message" id="message"></textarea>
-                    <button>Send message</button>
+                    <button aria-label="Send Message">Send message</button>
                 </form>
             </section>
             <section class="space-about-contact">
@@ -108,18 +108,18 @@
           </section>
           <iframe class="map" src="https://www.openstreetmap.org/export/embed.html?bbox=11.339950561523438%2C59.12439992256533%2C11.368274688720705%2C59.134000655417516&amp;layer=mapnik&amp;marker=59.12920062538166%2C11.35411262512207"></iframe>
           </main>
-        <footer>
+          <footer>
             <nav>
-                <a href="index.html"><img src="img/logo1.png" alt="Logo"></a>
+                <a href="index.html"><img src="img/logo1.png" alt="Logo" title="Homepage"></a>
                 <p>Companyrights Companyname 2023</p>
                 <ul class="space-socials">
-                    <li><a href="http://facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
-                    <li><a href="http://instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
-                    <li><a href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="http://facebook.com" title="Facebook"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="http://instagram.com" title="Instagram"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="http://linkedin.com" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
             </nav>
         </footer>
-        <div class="go-to-top"><a href="#top"><i class="fa-solid fa-arrow-up"></i></a></div>
+        <div class="go-to-top"><a href="#top" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a></div>
     </body>
 
 </html>

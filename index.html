@@ -15,32 +15,32 @@
     </head>
     <body>
         <header id="top">
-            <nav>
-                <a href="index.html"><img src="img/logo1.png" alt="Logo"></a>
+            <nav aria-roledescription="main navigation">
+                <a href="index.html"><img src="img/logo1.png" alt="Logo" title="Homepage" aria-label="Go to homepage"></a>
                 <ul class="space-navigation">
-                    <li class="menu-target"><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Portofolio</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="navigation-contact"><a href="about.html#contact">Contact</a></li>
+                    <li class="menu-target"><a href="index.html" title="Homepage" aria-label="Go to homepage">Home</a></li>
+                    <li><a href="products.html" title="Portfolio" aria-label="Go to portfolio page">Portofolio</a></li>
+                    <li><a href="about.html" title="About" aria-label="Go to About us page">About</a></li>
+                    <li class="navigation-contact"><a href="about.html#contact" title="Contact us" aria-label="Go to about us page">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="space-index-headline">
+            <article class="space-index-headline">
                 <h1>Compeling headline</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, massa id egestas faucibus, magna felis varius est, vel egestas nisl risus nec turpis. Morbi laoreet porttitor mauris, et scelerisque sem euismod id.</p>
-                <a class="button" href="about.html">Read more about our services</a>
-            </section>
-            <section class="space-index-subheading">
+                <a class="button" href="about.html" title="About" aria-label="Go to about us page">Read more about our services</a>
+            </article>
+            <article class="space-index-subheading">
                 <h2>Engaging subheading. What can you help your visitors with</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, massa id egestas faucibus, magna felis varius est, vel egestas nisl risus nec turpis. Morbi laoreet porttitor mauris, et scelerisque sem euismod id.</p>
-            </section>
+            </article>
             <section class="space-index-about">
                 <img src="https://placehold.co/400x400" alt="about us placeholder">
                 <section>
                     <h2>About Our Company</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, massa id egestas faucibus, magna felis varius est, vel egestas nisl risus nec turpis. Morbi laoreet porttitor mauris, et scelerisque sem euismod id.</p>
-                    <a href="about.html" class="space-more-about-us button">Read more about us</a>
+                    <a href="about.html" class="space-more-about-us button" title="About" aria-label="Go to about us page">Read more about us</a>
                 </section>
             </section>
             <section class="space-index-services">
@@ -71,24 +71,24 @@
             <section class="space-index-newsletter">
                 <h2>Sign up for our newsletter</h2>
                 <form action="#">
-                    <input type="email" name="email" id="email" placeholder="someone@email.com">
-                    <button type="submit">Sign me up</button>
+                    <input type="email" name="email" id="email" placeholder="someone@email.com" aria-label="Enter email address for newsletter">
+                    <button type="submit" aria-label="Sign me up button for newsletter">Sign me up</button>
                 </form>
             </section>
 
         </main>
         <footer>
             <nav>
-                <a href="index.html"><img src="img/logo1.png" alt="Logo"></a>
+                <a href="index.html"><img src="img/logo1.png" alt="Logo" title="Homepage"></a>
                 <p>Companyrights Companyname 2023</p>
                 <ul class="space-socials">
-                    <li><a href="http://facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
-                    <li><a href="http://instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
-                    <li><a href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="http://facebook.com" title="Facebook"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="http://instagram.com" title="Instagram"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="http://linkedin.com" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
             </nav>
         </footer>
-        <div class="go-to-top"><a href="#top"><i class="fa-solid fa-arrow-up"></i></a></div>
+        <div class="go-to-top"><a href="#top" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a></div>
     </body>
 
 </html>

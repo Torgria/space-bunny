@@ -14,14 +14,14 @@
         <meta property="og:image" content="img/logo1.png">
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="index.html"><img src="img/logo1.png" alt="Logo"></a>
+        <header id="top">
+            <nav aria-roledescription="main navigation">
+                <a href="index.html"><img src="img/logo1.png" alt="Logo" title="Homepage" aria-label="Go to homepage"></a>
                 <ul class="space-navigation">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="menu-target"><a href="products.html">Portofolio</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="navigation-contact"><a href="about.html#contact">Contact</a></li>
+                    <li><a href="index.html" title="Homepage" aria-label="Go to homepage">Home</a></li>
+                    <li class="menu-target"><a href="products.html" title="Portfolio" aria-label="Go to portfolio page">Portofolio</a></li>
+                    <li><a href="about.html" title="About" aria-label="Go to About us page">About</a></li>
+                    <li class="navigation-contact"><a href="about.html#contact" title="Contact us" aria-label="Go to about us page">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,9 +32,9 @@
             <section class="space-portfolio-jobs">
                 <h2>Explore previous jobs</h2>
                 <ul>
-                    <li><a href="#branding">Branding</a></li>
-                    <li><a href="#design">Design</a></li>
-                    <li> <a href="#development">Development</a></li>
+                    <li><a href="#branding" title="Branding">Branding</a></li>
+                    <li><a href="#design" title="Design">Design</a></li>
+                    <li> <a href="#development" title="Development">Development</a></li>
                 </ul>
             </section>
             <section class="space-portfolio-lizt" id="branding">
@@ -92,16 +92,16 @@
         </main>
         <footer>
             <nav>
-                <img src="img/logo1.png" alt="Logo">
+                <a href="index.html"><img src="img/logo1.png" alt="Logo" title="Homepage"></a>
                 <p>Companyrights Companyname 2023</p>
                 <ul class="space-socials">
-                    <li><a href="http://facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
-                    <li><a href="http://instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
-                    <li><a href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="http://facebook.com" title="Facebook"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="http://instagram.com" title="Instagram"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="http://linkedin.com" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
             </nav>
         </footer>
-        <div class="go-to-top"><a href="#top"><i class="fa-solid fa-arrow-up"></i></a></div>
+        <div class="go-to-top"><a href="#top" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a></div>
     </body>
 
 </html>
