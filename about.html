@@ -2,10 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Index</title>
+        <title>About</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
         <script src="https://kit.fontawesome.com/8184f5429f.js" crossorigin="anonymous"></script>
+        <meta property="og:title" content="Iloceam - about">
+        <meta property="og:site_name" content= "Iloceam">
+        <meta property="og:url" content="about.html">
+        <meta property="og:description" content="Here you can read some info about us, be sure to tell us anything you might find out about Iloceam.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="img/logo1.png">
     </head>
     <body>
         <header>
@@ -20,11 +26,91 @@
             </nav>
         </header>
         <main>
-
-        </main>
+          <section class="space-about-header">
+            <section>
+                <p>Company name</p>
+                <h3>About Our Company</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, massa id egestas faucibus, magna felis varius est, vel egestas nisl risus nec turpis. Morbi laoreet porttitor mauris, et scelerisque sem euismod id. Morbi eu diam ac massa vulputate consectetur quis sed massa. Suspendisse potenti. Donec lobortis lacinia vehicula. Donec vel scelerisque enim. Praesent condimentum dignissim nulla, sed sollicitudin felis commodo vitae. Morbi eu diam ac massa vulputate consectetur quis sed massa. Suspendisse potenti. Donec lobortis lacinia vehicula. Donec vel scelerisque enim. Praesent condimentum dignissim nulla, sed sollicitudin felis commodo vitae.</p>
+                <a class="button" href="#contact">Get in touch with us</a>   
+            </section>
+          </section>
+          <section class="space-about-services">
+            <h2>Our services</h2>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-wifi"></i>
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </li>
+            </ul>
+          </section>
+          <section class="space-about-clients">
+            <h2>Some of our clients</h2>
+            <ul>
+                <li>
+                    <img src="img/logo1.png" alt="logo 1">
+                </li>
+                <li>
+                    <img src="img/logo2.png" alt="logo 2">
+                </li>
+                <li>
+                    <img src="img/logo3.png" alt="logo 3">
+                </li>
+            </ul>
+          </section>
+          <section class="space-about-info" id="contact">
+            <h2>Contact Us</h2>
+            <section class="space-form">
+                <h3>Send us a message</h3>
+                <form action="#">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Ola Nordmann..">
+                    <label for="Subject">Subject</label>
+                    <input type="text" id="Subject" placeholder="Branding...">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                    <button>Send message</button>
+                </form>
+            </section>
+            <section class="space-about-contact">
+                <h3>Contact information</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, massa id egestas faucibus, magna felis varius est, vel egestas nisl risus nec turpis.</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <p>B R A Veien 4, 1745 Halden</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>69 60 80 00</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p><a href="mailto:#" class="email">postmottak@hiof.no</a></p>
+                    </li>
+                </ul>
+            </section>
+          </section>
+          <iframe class="map" src="https://www.openstreetmap.org/export/embed.html?bbox=11.339950561523438%2C59.12439992256533%2C11.368274688720705%2C59.134000655417516&amp;layer=mapnik&amp;marker=59.12920062538166%2C11.35411262512207"></iframe>
+          </main>
         <footer>
             <nav>
-                <img src="img/logo1.png" alt="Logo">
+                <a href="index.html"><img src="img/logo1.png" alt="Logo"></a>
                 <p>Companyrights Companyname 2023</p>
                 <ul class="space-socials">
                     <li><a href="http://facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
